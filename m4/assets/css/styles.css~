@@ -1,0 +1,206 @@
+body {
+  background: #fff;
+  color: #444;
+}
+
+a {
+  color: #007bff;
+  transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+header nav{
+	background-color: #00428a;
+	margin-left: auto;
+	margin-right: auto;
+}
+header nav ul {
+	padding: 0;
+	text-align: center;
+	list-style:none;
+}
+
+header nav li {
+	display: inline;
+	text-align: center;
+}
+
+header nav a {
+	display: inline-block;
+	color: white;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding: 8px;
+}
+
+header nav a:hover {
+	color: white;
+	text-shadow: 0 0 0;
+	background-color: green;
+}
+
+/*--------------------------------------------------------------
+# Welcome image 
+--------------------------------------------------------------*/
+
+#welcome-container {
+  position: relative;
+}
+
+div img{
+ margin-left: auto !important;
+ margin-right: auto !important;
+ display: block !important;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 3%;
+  left: 45%;
+  background-color: rgba(0,102,150,0.65);
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#text {
+  z-index: 100;
+  position: absolute;
+  color:#00428a;
+  font-size: 50px;
+  font-weight: bold;
+  left: 50px;
+  top: 180px;
+  font-family:  "Futura", "Trebuchet MS", "Arial", sans-serif;
+  text-align: center;
+}
+
+#text span{
+	text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+# Welcome information
+--------------------------------------------------------------*/
+#vbp h3, h4, p, ul, li{
+	padding-left: 80px;
+	padding-right: 50px;
+}
+
+.image{
+	width: 100%;
+	height: 50%;
+	
+}
+
+body h3, p, ul, li{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+img.about{
+	width: 80% !important; 
+	height: 60% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+div.Vina {
+border-style: solid;
+border-color: #60487F;
+}
+
+div.Adhi {
+border-style: solid;
+border-color: #7888BF;
+}
+
+div.zjh {
+border-style: solid;
+border-color: #8da1e8;
+}
+
+div.Xuan {
+border-style: solid;
+border-color: #4AF8FF;
+}
+
+body{
+background-color: white;
+}
+
+h4{
+	color:#b4c0e8;
+	text-align: center;
+}
+
+div.request {
+    text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Whatif
+--------------------------------------------------------------*/
+.table-header{
+	background-color: lightblue;
+}
+.label{
+	background-color: lightblue;
+	font-weight: bold;
+}
+.table{
+	margin-left: auto;
+	margin-right: auto;
+}
+#tps, #reimbursement, #reduction, #amount{
+	color: blueviolet;
+}
+.cell {
+	text-align: center;
+}
+ 
+.update{
+	width: 20%;
+   height: 40%;
+}
+img.whatif{
+	width: 20% !important; 
+	height: 20% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer{
+  background: #00428a;
+  color: #eee;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+footer a{
+	color: wheat;
+}

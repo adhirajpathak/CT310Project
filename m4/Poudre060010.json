@@ -1,0 +1,41 @@
+{
+ "title": "Poudre Valley Hospital",
+ "tps": "44.3452381",
+ "reimbursement": "12100462",
+ "reduction": "11858452.8",
+ "amount": "11965474.5",
+ "basescore":4,
+ "consistency":10,
+ "safety": [
+    {"id":"CLABSI (HAI-1)", "safetythreadshold0":"0.369", "safetybenchmark0":"0", "safetybaseline0":"0", "safetyperformance0":"0", "safetyachievement0":"10", "safetyimprovement0":"0","safetymeasure0":"10"}, 
+    {"id":"CAUTI (HAI-2)", "safetythreadshold1":0.906, "safetybenchmark1":"0", "safetybaseline1":0.437, "safetyperformance1":0.884, "safetyachievement1":1, "safetyimprovement1": 0,"safetymeasure1":1}, 
+    {"id":"SSI (HAI-3 & HAI-4)", "safetythreadshold2":0.767, "safetybenchmark2":0, "safetybaseline2":0.181, "safetyperformance2":0.909, "safetyachievement2":2.5, "safetyimprovement2": 0,"safetymeasure2":2.5}, 
+    {"id":"MRSA (HAI-5)", "safetythreadshold3":0.767, "safetybenchmark3":0, "safetybaseline3":0, "safetyperformance3":0, "safetyachievement3":10, "safetyimprovement3":0,"safetymeasure3":10}, 
+    {"id":"CDI (HAI-6)", "safetythreadshold4":0.805, "safetybenchmark4":0.004, "safetybaseline4":1.497, "safetyperformance4":0.707, "safetyachievement4":2, "safetyimprovement4": 5,"safetymeasure4":5}, 
+    {"id":"PSI-90", "safetythreadshold5":0.964542, "safetybenchmark5":0.709498, "safetybaseline5":0.891703, "safetyperformance5":0.462237, "safetyachievement5":10, "safetyimprovement5": 9,"safetymeasure5": 10}, 
+    {"id":"PC-01", "safetythreadshold6":0.020408, "safetybenchmark6":0, "safetybaseline6":0, "safetyperformance6":0.030303, "safetyachievement6":0, "safetyimprovement6": 0,"safetymeasure6":0},
+    {"id":"Total", "safetythreadshold7":"N/A", "safetybenchmark7":"N/A", "safetybaseline7":"N/A", "safetyperformance7":"N/A", "safetyachievement7":"35.5/70", "safetyimprovement7": "14/63","safetymeasure7":"38.5/70"}
+    ],
+ "clinical": [
+    {"id":"MORT-30-AMI", "clinicalthreadshold0":0.850916, "clinicalbenchmark0":0.873053, "clinicalbaseline0":0.860355, "clinicalperformance0":0.872792, "clinicalachievement0":9, "clinicalimprovement0": 9,"clinicalmeasure0":9}, 
+    {"id":"MORT-30-HF", "clinicalthreadshold1":0.883421, "clinicalbenchmark1":0.907656, "clinicalbaseline1":0.889608, "clinicalperformance1":0.851331, "clinicalachievement1":0, "clinicalimprovement1": 0,"clinicalmeasure1":0}, 
+    {"id":"MORT-30-PN", "clinicalthreadshold2":0.88286, "clinicalbenchmark2":0.9079, "clinicalbaseline2":0.896721, "clinicalperformance2":0.886172, "clinicalachievement2":2, "clinicalimprovement2": 0,"clinicalmeasure2":2},
+    {"id":"Total", "clinicalthreadshold3":"N/A", "clinicalbenchmark3":"N/A", "clinicalbaseline3":"N/A", "clinicalperformance3":"N/A", "clinicalachievement3":"11/30", "clinicalimprovement3": "9/27","clinicalmeasure3":"11/30"}
+    ],
+ "efficiency": [
+    {"id":"MSPB-1", "efficiencythreadshold0":"0.985777", "efficiencybenchmark0":"0.832678", "efficiencybaseline0":"0.945551", "efficiencyperformance0":"0.919228", "efficiencyachievement0":"4", "efficiencyimprovement0": "2","efficiencymeasure0":"4"},
+    {"id":"Total", "efficiencythreadshold1":"N/A", "efficiencybenchmark1":"N/A", "efficiencybaseline1":"N/A", "efficiencyperformance1":"N/A", "efficiencyachievement1":"4/10", "efficiencyimprovement1": "2/9","efficiencymeasure1":"4/10"}
+    ],
+ "experience": [
+    {"id":"Nurses", "floor0":55.27, "experiencethreadshold0":78.52, "experiencebenchmark0":86.68, "experiencebaseline0":78.26, "experienceperformance0":80.16, "experienceachievement0":2, "experienceimprovement0": 2,"experiencemeasure0":2}, 
+    {"id":"Doctors", "floor1":57.39, "experiencethreadshold1":80.44, "experiencebenchmark1":88.51, "experiencebaseline1":78.93, "experienceperformance1":80.33, "experienceachievement1":0, "experienceimprovement1": 1,"experiencemeasure1":1}, 
+    {"id":"Responsive of Hospital Staff", "floor2":38.4, "experiencethreadshold2":65.08, "experiencebenchmark2":80.35, "experiencebaseline2":69.77, "experienceperformance2":68.88, "experienceachievement2":3, "experienceimprovement2": 0,"experiencemeasure2":3}, 
+    {"id":"Care Transition", "floor3":25.21, "experiencethreadshold3":51.45, "experiencebenchmark3":62.44, "experiencebaseline3":54.35, "experienceperformance3":55.48, "experienceachievement3":4, "experienceimprovement3":1,"experiencemeasure3":4},
+    {"id":"Communication About Medicines", "floor4":43.43, "experiencethreadshold4":63.37, "experiencebenchmark4":73.66, "experiencebaseline4":64.67, "experienceperformance4":65, "experienceachievement4":2, "experienceimprovement4": 0,"experiencemeasure4":2}, 
+    {"id":"Hospital Environment", "floor5":40.05, "experiencethreadshold5":65.6, "experiencebenchmark5":79, "experiencebaseline5":68.93, "experienceperformance5":68.97, "experienceachievement5":3, "experienceimprovement5": 0,"experiencemeasure5":3}, 
+    {"id":"Discharge Information", "floor6":62.25, "experiencethreadshold6":86.6, "experiencebenchmark6":91.63, "experiencebaseline6":87.75, "experienceperformance6":89.84, "experienceachievement6":6, "experienceimprovement6": 5,"experiencemeasure6":6},
+    {"id":"Overall Rating", "floor7":37.67, "experiencethreadshold7":70.23, "experiencebenchmark7":84.58, "experiencebaseline7":76.11, "experienceperformance7":77.41, "experienceachievement7":5, "experienceimprovement7": 1,"experiencemeasure7":5},
+    {"id":"Total", "floor8":"N/A","experiencethreadshold8":"N/A", "experiencebenchmark8":"N/A", "experiencebaseline8":"N/A", "experienceperformance8":"N/A", "experienceachievement8":"25/80", "experienceimprovement8": "10/72","experiencemeasure8":"26/80"}
+    ],
+  "comment":"Leave your comment for Poudre Valley Hospital"
+}
